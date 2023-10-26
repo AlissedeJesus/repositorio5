@@ -55,11 +55,12 @@ header .Navegacao li a {
     box-shadow: 0 2px 4px rgba(red, green, blue, alpha);
     display: flex;
     align-items: center;
-    margin:  0 auto;
+    margin: 0 auto;
 
 }
+
 header h1 {
-flex-direction: row;
+    flex-direction: row;
 
 }
 
@@ -88,7 +89,7 @@ flex-direction: row;
     display: flex;
     float: top;
     align-items: center;
-    
+
 
 
 
@@ -96,8 +97,8 @@ flex-direction: row;
 
 
 .para {
-    flex-direction:row-reverse;
-    float:left;
+    flex-direction: row-reverse;
+    float: left;
     display: inline-block;
 
 
@@ -106,23 +107,23 @@ flex-direction: row;
 }
 
 
-.nav h4{
+.nav h4 {
     flex-direction: column;
     float: top;
 
 }
 
-.texto1 h2{
-   
+.texto1 h2 {
+
     display: inline;
-    
+
     width: 70px;
 }
 
 
 
-.Ferramentas{
-    margin:0 auto;
+.Ferramentas {
+    margin: 0 auto;
     border-radius: 5px;
     border-color: aqua;
     display: flex;
@@ -133,31 +134,32 @@ flex-direction: row;
 }
 
 
-.Ferramentas img{
+.Ferramentas img {
     height: 60px;
-       width: 60px;
-        border: solid;
-        align-items: center;
-       margin: 30px;
+    width: 60px;
+    border: solid;
+    align-items: center;
+    margin: 30px;
     background-color: beige;
     justify-content: center;
 
 }
-.titulo h5{
+
+.titulo h5 {
     font-size: 3rem;
 
 }
 
-.icones{
+.icones {
     display: flex;
     justify-content: center;
 }
 
-.Ferramentas h5{
+.Ferramentas h5 {
     width: 100px;
 }
 
-.portifolio{
+.portifolio {
     max-width: 1200px;
     margin: 0 auto;
     padding: 60px;
@@ -166,29 +168,84 @@ flex-direction: row;
 
 /* Estilizando projetos*/
 
-.container-projetos{
+.container-projetos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     max-width: 1200px;
-    margin: 0 auto ;
-   color: aquamarine;
+    margin: 0 auto;
+    color: aquamarine;
 }
 
-.Trabalhos{
+.Trabalhos {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
 }
 
-.Trabalhos img{
+.Trabalhos img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 10px; 
- }
+    margin-bottom: 10px;
+}
 
- .portifolio h2{
+.portifolio h2 {
     color: #ffffff;
     font-size: 4rem;
- }
+}
 
+
+.contatos img {
+width: 10%;
+align-items: center;
+justify-content: center;
+
+
+
+       
+    }
+
+    .contatos{
+       
+            margin: 0 auto;
+            border-radius: 5px;
+            border-color: aqua;
+            display: inline;
+            justify-content: center;
+            flex-direction: column;
+            max-width: 1200px;
+            justify-content: center;
+            padding: 50px;
+            align-items: center;
+
+
+
+
+
+
+
+
+
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+    
